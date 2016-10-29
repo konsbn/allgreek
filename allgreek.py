@@ -1,0 +1,57 @@
+class greekspeek():
+    def __init__(self):
+        self.dictionary = {'Alpha': 'Α',
+ 'Beta': 'Β',
+ 'Chi': 'Χ',
+ 'Delta': 'Δ',
+ 'Epsilon': 'Ε',
+ 'Eta': 'Η',
+ 'Gamma': 'Γ',
+ 'Iota': 'Ι',
+ 'Kappa': 'Κ',
+ 'Lamda': 'Λ',
+ 'Mu': 'Μ',
+ 'Nu': 'Ν',
+ 'Omega': 'Ω',
+ 'Omicron': 'Ο',
+ 'Phi': 'Φ',
+ 'Pi': 'Π',
+ 'Psi': 'Ψ',
+ 'Rho': 'Ρ',
+ 'Sigma': 'Σ',
+ 'Tau': 'Τ',
+ 'Theta': 'Θ',
+ 'Upsilon': 'Υ',
+ 'Xi': 'Ξ',
+ 'Zeta': 'Ζ',
+ 'alpha': 'α',
+ 'beta': 'β',
+ 'chi': 'χ',
+ 'delta': 'δ',
+ 'epsilon': 'ε',
+ 'eta': 'η',
+ 'gamma': 'γ',
+ 'iota': 'ι',
+ 'kappa': 'κ',
+ 'lamda': 'λ',
+ 'mu': 'μ',
+ 'nu': 'ν',
+ 'omega': 'ω',
+ 'omicron': 'ο',
+ 'phi': 'φ',
+ 'pi': 'π',
+ 'psi': 'ψ',
+ 'rho': 'ρ',
+ 'sigma': 'σ',
+ 'tau': 'τ',
+ 'theta': 'θ',
+ 'upsilon': 'υ',
+ 'xi': 'ξ',
+ 'zeta': 'ζ'}
+    def printme(self):
+        return self.dictionary
+G = greekspeek()
+def speak(char):
+    g =  G.printme()
+    return g[char]
+    
